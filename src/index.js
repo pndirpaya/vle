@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Home from './Home';
+import UIkit from 'uikit'
+import style from 'uikit/dist/css/uikit.css'
+import Icons from 'uikit/dist/js/uikit-icons';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
+import './custom.css'
+UIkit.use(Icons);
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+var Vle = () =>{
+    return (
+        <Router>
+            <div>
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                </Switch>
+            </div>
+        </Router>
+    )
+}
+
+ReactDOM.render(<Vle />, document.getElementById('root'));
 serviceWorker.unregister();

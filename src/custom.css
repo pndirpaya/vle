@@ -1,0 +1,57 @@
+/* Navbar  */
+.vle_navbar{
+    background-color: #E81C83 !important;
+}
+.vle_menu li a {
+    color: #ffffff !important;
+}
+
+.vle_menu li a:hover{
+    color: #F7AB6C !important;    
+}
+
+/* Buttons */
+
+.vle_btn_pink{
+    background-color: #E81C83 !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+}
+
+.vle_btn_peach{
+    background-color: #F7AB6C !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+}
+
+
+
+
+/* Colors */
+
+.pink{
+    color: #E81C83 !important;
+}
+.blue{
+    color: #009DFF !important;
+}
+
+
+/* Courses */
+.vle_thumb{
+border-radius: 10px !important;
+}
+
+.vle_thumb_icon{
+    margin-top:-70px;
+    margin-left:120px;
+    padding:5px;
+    border-radius:5px;
+}
+
+
+/* sections */
+
+.vle_section_pink{
+    background-color: #E81C83 !important;
+}
